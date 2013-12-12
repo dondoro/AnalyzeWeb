@@ -13,4 +13,14 @@
     <url-pattern>/analyze</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>TimeLine</servlet-name>
+    <servlet-class>jp.co.guru.AnalyzeWeb.TimeLine</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>TimeLine</servlet-name>
+    <url-pattern>/timeline</url-pattern>
+  </servlet-mapping>
+
 </web-app>
