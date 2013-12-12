@@ -5,7 +5,7 @@
          version="3.0">
   <servlet>
     <servlet-name>Analyze</servlet-name>
-    <servlet-class>jp.co.guru.ParameterlizedTimeLine</servlet-class>
+    <servlet-class>jp.co.guru.AnalyzeWeb.ParameterlizedTimeLine</servlet-class>
   </servlet>
 
   <servlet-mapping>
